@@ -9,11 +9,19 @@ import android.widget.Button;
 
 public class cathegories extends AppCompatActivity {
 
-    private Button english, korean, japanese, thai;
+    private Button english, korean, japanese, thai, back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cathegories);
+
+        back = (Button) findViewById(R.id.button_back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                gobackbitch();
+            }
+        });
 
         english = (Button) findViewById(R.id.button_english);
         english.setOnClickListener(new View.OnClickListener() {
@@ -47,6 +55,11 @@ public class cathegories extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void gobackbitch() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
     private void openThai() {
