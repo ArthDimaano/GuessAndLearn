@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background">
+    android:background="@color/white">
 
     <Button
         android:id="@+id/option2Button"
@@ -14,7 +14,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="71dp"
         android:layout_marginBottom="127dp"
-        android:background="@drawable/button_selector"
+        android:background="@color/white"
         android:contentDescription="@string/action_settings"
         android:padding="16dp"
         android:textColor="#FFFFFF"
@@ -36,7 +36,7 @@
         android:layout_marginStart="74dp"
         android:layout_marginEnd="72dp"
         android:layout_marginBottom="227dp"
-        android:background="@drawable/button_selector"
+        android:background="@color/white"
         android:contentDescription="@string/action_settings"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
@@ -52,7 +52,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="73dp"
         android:layout_marginBottom="24dp"
-        android:background="@drawable/button_selector"
+        android:background="@color/white"
         android:contentDescription="@string/action_settings"
         android:padding="16dp"
         android:textColor="#FFFFFF"
@@ -120,6 +120,5 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="15dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
 
 </RelativeLayout>
