@@ -13,7 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuessAndLearn"
         tools:targetApi="31">
-
+        <activity
+            android:name=".Thai"
+            android:exported="false" />
+        <activity
+            android:name=".Japanese"
+            android:exported="false" />
+        <activity
+            android:name=".Korean"
+            android:exported="false" />
+        <activity
+            android:name=".English"
+            android:exported="false" />
+        <activity
+            android:name=".cathegories"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
