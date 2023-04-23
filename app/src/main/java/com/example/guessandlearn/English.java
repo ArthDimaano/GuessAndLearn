@@ -20,12 +20,12 @@ public class English extends AppCompatActivity {
         normal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                normalEnglis();
+                normalEnglish();
             }
         });
     }
 
-    private void normalEnglis() {
+    private void normalEnglish() {
         Intent intent = new Intent(this, English_normal.class);
         startActivity(intent);
     }
